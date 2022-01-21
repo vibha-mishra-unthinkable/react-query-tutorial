@@ -41,11 +41,14 @@ const RQSuperHeroes = () => {
     <>
       <h2>React Query Super Heroes Page</h2>
       <div>
+        Name:
         <input
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
+        <br />
+        AlterEgo:
         <input
           type="text"
           value={alterEgo}
